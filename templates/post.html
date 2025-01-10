@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+    <a href="/">Back to Home</a>
+
+    <form method="POST" action="/delete_post/{{ post.id }}">
+        <button type="submit">Delete Post</button>
+    </form>
+    
+{% endblock %}

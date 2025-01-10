@@ -1,0 +1,19 @@
+# Python files
+*.pyc
+__pycache__/
+
+# Environment
+.env
+
+# Database
+*.sqlite3
+
+# Flask session
+instance/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
